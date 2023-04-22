@@ -1,7 +1,7 @@
-FROM amazoncorretto:8
+FROM amazoncorretto:8-alpine-jdk
 
 MAINTAINER FacuSam
 
-COPY target/primerproyecto-0.0.1-SNAPSHOT.jar primerproyecto-0.0.1-SNAPSHOT.jar
+COPY target/primerproyecto-0.0.1-SNAPSHOT.jar app.jar
 
-ENTRYPOINT ["java","-jar","/primerproyecto-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","/app.jar"]
