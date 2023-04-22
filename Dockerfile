@@ -1,5 +1,7 @@
-FROM amazoncorretto:8-alphine-jdk
+FROM amazoncorretto:8
 
-COPY target/primerproyecto-0.0.1-SNAPSHOT.jar app.jar  
+MAINTAINER FacuSam
 
-ENTRYPOINT ["java","-jar","/app.jar"]
+COPY target/primerproyecto-0.0.1-SNAPSHOT.jar 
+
+ENTRYPOINT ["java","-jar","/primerproyecto-0.0.1-SNAPSHOT.jar"]
