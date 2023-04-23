@@ -11,17 +11,16 @@ public class Persona {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private String nombre;
-    private String apellido;
+    private String email;
+    private String password;
     
     public Persona(){
     }
     
-    public Persona(Long id, String nombre, String apellido){
+    public Persona(Long id, String email, String password){
     this.id = id;
-    this.nombre = nombre;
-    this.apellido = apellido;
-    
+    this.email = email;
+    this.password = password;
     }
     
     
