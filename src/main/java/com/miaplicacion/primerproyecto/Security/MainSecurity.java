@@ -3,7 +3,6 @@ package com.miaplicacion.primerproyecto.Security;
 import com.miaplicacion.primerproyecto.Security.Service.UserDetailsImpl;
 import com.miaplicacion.primerproyecto.Security.jwt.JwtEntryPoint;
 import com.miaplicacion.primerproyecto.Security.jwt.JwtTokenFilter;
-import static java.lang.Compiler.disable;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

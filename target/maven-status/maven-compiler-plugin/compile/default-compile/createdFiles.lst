@@ -10,6 +10,7 @@ com\miaplicacion\primerproyecto\service\PersonaService.class
 com\miaplicacion\primerproyecto\Security\Repository\iRolRepository.class
 com\miaplicacion\primerproyecto\Security\Service\RolService.class
 com\miaplicacion\primerproyecto\Security\Entity\UsuarioPrincipal.class
+.netbeans_automatic_build
 com\miaplicacion\primerproyecto\service\IPersonaService.class
 com\miaplicacion\primerproyecto\repository\PersonaRepository.class
 com\miaplicacion\primerproyecto\Security\Dto\NuevoUsuario.class
