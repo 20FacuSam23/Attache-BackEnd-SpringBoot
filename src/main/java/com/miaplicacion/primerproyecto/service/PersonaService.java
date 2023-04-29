@@ -2,7 +2,7 @@
 package com.miaplicacion.primerproyecto.service;
 
 import com.miaplicacion.primerproyecto.model.Persona;
-import com.miaplicacion.primerproyecto.repository.PersonaRepository;
+import com.miaplicacion.primerproyecto.Security.Repository.PersonaRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

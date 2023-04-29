@@ -11,9 +11,9 @@ com\miaplicacion\primerproyecto\Security\Repository\iRolRepository.class
 com\miaplicacion\primerproyecto\Security\Service\RolService.class
 com\miaplicacion\primerproyecto\Security\Entity\UsuarioPrincipal.class
 com\miaplicacion\primerproyecto\service\IPersonaService.class
-com\miaplicacion\primerproyecto\repository\PersonaRepository.class
 com\miaplicacion\primerproyecto\Security\Dto\NuevoUsuario.class
 com\miaplicacion\primerproyecto\Security\Dto\LoginUsuario.class
+com\miaplicacion\primerproyecto\Security\Repository\PersonaRepository.class
 com\miaplicacion\primerproyecto\PrimerproyectoApplication.class
 com\miaplicacion\primerproyecto\Security\MainSecurity.class
 com\miaplicacion\primerproyecto\Security\jwt\JwtEntryPoint.class
