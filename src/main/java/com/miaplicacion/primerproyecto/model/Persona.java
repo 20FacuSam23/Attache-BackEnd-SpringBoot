@@ -1,8 +1,8 @@
 package com.miaplicacion.primerproyecto.model;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import lombok.Getter;
 import lombok.Setter;
 @Getter @Setter
