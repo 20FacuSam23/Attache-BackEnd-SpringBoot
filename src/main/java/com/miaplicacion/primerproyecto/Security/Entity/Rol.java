@@ -3,11 +3,11 @@ package com.miaplicacion.primerproyecto.Security.Entity;
 
 import com.miaplicacion.primerproyecto.Security.Enums.RolNombre;
 
-import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import com.sun.istack.NotNull;
+import javax.persistence.Entity;
 import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 
@@ -21,6 +21,10 @@ public class Rol {
     @Enumerated(EnumType.STRING)
     private RolNombre rolNombre;
 
+    
+    public Rol(){}
+    
+    
     public Rol(RolNombre rolNombre) {
         this.rolNombre = rolNombre;
     }
@@ -45,3 +49,4 @@ public class Rol {
     
     
 }
+

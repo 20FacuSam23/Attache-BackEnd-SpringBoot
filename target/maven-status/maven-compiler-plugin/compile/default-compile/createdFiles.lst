@@ -1,4 +1,5 @@
 com\miaplicacion\primerproyecto\model\Persona.class
+com\miaplicacion\primerproyecto\Security\Repository\IPersonaRepository.class
 com\miaplicacion\primerproyecto\Security\Service\UsuarioService.class
 com\miaplicacion\primerproyecto\Security\jwt\JwtProvider.class
 com\miaplicacion\primerproyecto\Security\Dto\JwtDto.class
@@ -13,11 +14,10 @@ com\miaplicacion\primerproyecto\Security\Entity\UsuarioPrincipal.class
 com\miaplicacion\primerproyecto\service\IPersonaService.class
 com\miaplicacion\primerproyecto\Security\Dto\NuevoUsuario.class
 com\miaplicacion\primerproyecto\Security\Dto\LoginUsuario.class
-com\miaplicacion\primerproyecto\Security\Repository\PersonaRepository.class
 com\miaplicacion\primerproyecto\PrimerproyectoApplication.class
+com\miaplicacion\primerproyecto\Controller\PersonaController.class
 com\miaplicacion\primerproyecto\Security\MainSecurity.class
 com\miaplicacion\primerproyecto\Security\jwt\JwtEntryPoint.class
-com\miaplicacion\primerproyecto\Controller\Controller.class
 com\miaplicacion\primerproyecto\Security\Service\UserDetailsImpl.class
 com\miaplicacion\primerproyecto\Security\Controller\Mensaje.class
 com\miaplicacion\primerproyecto\Security\Enums\RolNombre.class
