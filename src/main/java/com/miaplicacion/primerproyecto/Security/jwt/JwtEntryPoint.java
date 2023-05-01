@@ -20,4 +20,3 @@ private final static Logger logger = LoggerFactory.getLogger(JwtEntryPoint.class
        response.sendError(HttpServletResponse.SC_UNAUTHORIZED);       
     }
 }
-

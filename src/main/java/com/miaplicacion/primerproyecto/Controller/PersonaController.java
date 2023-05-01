@@ -1,7 +1,7 @@
 
 package com.miaplicacion.primerproyecto.Controller;
-import com.miaplicacion.primerproyecto.model.Persona;
-import com.miaplicacion.primerproyecto.service.IPersonaService;
+import com.miaplicacion.primerproyecto.Entity.Persona;
+import com.miaplicacion.primerproyecto.Interface.IPersonaService;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,12 +38,14 @@ public class PersonaController {
     return "La persona fue creada correctamente";
     }
     
+    @PreAuthorize("hasRole('ADMIN')")   
     @DeleteMapping("/personas/borrar/{id}")
     public String deletePersona (@PathVariable Long id){
     ipersonaService.deletePersona(id);
     return "La persona fue eliminada correctamente";
     }
     
+    @PreAuthorize("hasRole('ADMIN')")   
     @PutMapping("/personas/editar/{id}")
     public Persona editPersona(@PathVariable Long id,
             @RequestParam("nombre") String nuevoNombre,

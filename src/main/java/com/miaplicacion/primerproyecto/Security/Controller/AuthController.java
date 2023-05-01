@@ -1,5 +1,4 @@
 package com.miaplicacion.primerproyecto.Security.Controller;
-
 import com.miaplicacion.primerproyecto.Security.Dto.JwtDto;
 import com.miaplicacion.primerproyecto.Security.Dto.LoginUsuario;
 import com.miaplicacion.primerproyecto.Security.Dto.NuevoUsuario;
