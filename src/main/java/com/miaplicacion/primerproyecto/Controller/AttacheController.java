@@ -20,7 +20,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("attache")
-@CrossOrigin(origins = "http://localhost:4200")
+//@ClossOring(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://ark-firefly-244839")
 public class AttacheController {
 
     @Autowired

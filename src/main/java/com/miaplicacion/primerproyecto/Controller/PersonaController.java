@@ -22,7 +22,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+//@ClossOring(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://ark-firefly-244839")
 public class PersonaController {
     
    @Autowired

@@ -5,6 +5,7 @@ import javax.validation.constraints.NotBlank;
 
 
 public class AttacheDto {
+
     @NotBlank
     private String nombreA;
     @NotBlank
@@ -33,6 +34,5 @@ public class AttacheDto {
     public void setDescripcionA(String descripcionA) {
         this.descripcionA = descripcionA;
     }
-    
-    
+
 }

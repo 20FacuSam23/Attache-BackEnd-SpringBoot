@@ -45,6 +45,5 @@ public class Attache {
     public void setDescripcionA(String descripcionA) {
         this.descripcionA = descripcionA;
     }
-    
-    
+
 }

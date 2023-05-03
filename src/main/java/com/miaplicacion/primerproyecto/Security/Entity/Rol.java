@@ -1,4 +1,3 @@
-
 package com.miaplicacion.primerproyecto.Security.Entity;
 
 import com.miaplicacion.primerproyecto.Security.Enums.RolNombre;
