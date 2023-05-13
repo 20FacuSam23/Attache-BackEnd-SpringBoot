@@ -14,6 +14,7 @@ com\miaplicacion\primerproyecto\Security\Repository\iRolRepository.class
 com\miaplicacion\primerproyecto\Entity\Persona.class
 com\miaplicacion\primerproyecto\Security\Service\RolService.class
 com\miaplicacion\primerproyecto\Security\Entity\UsuarioPrincipal.class
+com\miaplicacion\primerproyecto\Dto\dtoPersona.class
 com\miaplicacion\primerproyecto\Security\Dto\NuevoUsuario.class
 com\miaplicacion\primerproyecto\Repository\IPersonaRepository.class
 com\miaplicacion\primerproyecto\Security\Dto\LoginUsuario.class
@@ -24,6 +25,5 @@ com\miaplicacion\primerproyecto\Security\jwt\JwtEntryPoint.class
 com\miaplicacion\primerproyecto\Security\Service\UserDetailsImpl.class
 com\miaplicacion\primerproyecto\Security\Controller\Mensaje.class
 com\miaplicacion\primerproyecto\Controller\AttacheController.class
-com\miaplicacion\primerproyecto\Interface\IPersonaService.class
 com\miaplicacion\primerproyecto\Security\Enums\RolNombre.class
 com\miaplicacion\primerproyecto\Security\jwt\JwtTokenFilter.class

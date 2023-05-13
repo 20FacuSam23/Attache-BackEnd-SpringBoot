@@ -2,6 +2,7 @@ C:\Users\digit\Documents\yo programo\proyectospringboot\SpringBoot\src\main\java
 C:\Users\digit\Documents\yo programo\proyectospringboot\SpringBoot\src\main\java\com\miaplicacion\primerproyecto\Service\ImplAttacheService.java
 C:\Users\digit\Documents\yo programo\proyectospringboot\SpringBoot\src\main\java\com\miaplicacion\primerproyecto\Security\jwt\JwtTokenFilter.java
 C:\Users\digit\Documents\yo programo\proyectospringboot\SpringBoot\src\main\java\com\miaplicacion\primerproyecto\Repository\IPersonaRepository.java
+C:\Users\digit\Documents\yo programo\proyectospringboot\SpringBoot\src\main\java\com\miaplicacion\primerproyecto\Dto\dtoPersona.java
 C:\Users\digit\Documents\yo programo\proyectospringboot\SpringBoot\src\main\java\com\miaplicacion\primerproyecto\Security\Entity\Rol.java
 C:\Users\digit\Documents\yo programo\proyectospringboot\SpringBoot\src\main\java\com\miaplicacion\primerproyecto\Security\Repository\iRolRepository.java
 C:\Users\digit\Documents\yo programo\proyectospringboot\SpringBoot\src\main\java\com\miaplicacion\primerproyecto\PrimerproyectoApplication.java
@@ -18,7 +19,6 @@ C:\Users\digit\Documents\yo programo\proyectospringboot\SpringBoot\src\main\java
 C:\Users\digit\Documents\yo programo\proyectospringboot\SpringBoot\src\main\java\com\miaplicacion\primerproyecto\Security\Dto\JwtDto.java
 C:\Users\digit\Documents\yo programo\proyectospringboot\SpringBoot\src\main\java\com\miaplicacion\primerproyecto\Entity\Persona.java
 C:\Users\digit\Documents\yo programo\proyectospringboot\SpringBoot\src\main\java\com\miaplicacion\primerproyecto\Security\Controller\AuthController.java
-C:\Users\digit\Documents\yo programo\proyectospringboot\SpringBoot\src\main\java\com\miaplicacion\primerproyecto\Interface\IPersonaService.java
 C:\Users\digit\Documents\yo programo\proyectospringboot\SpringBoot\src\main\java\com\miaplicacion\primerproyecto\Controller\PersonaController.java
 C:\Users\digit\Documents\yo programo\proyectospringboot\SpringBoot\src\main\java\com\miaplicacion\primerproyecto\Security\MainSecurity.java
 C:\Users\digit\Documents\yo programo\proyectospringboot\SpringBoot\src\main\java\com\miaplicacion\primerproyecto\Dto\AttacheDto.java
