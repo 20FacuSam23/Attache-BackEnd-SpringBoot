@@ -23,8 +23,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @RestController
 @RequestMapping("/personas")
-//@CrossOrigin(origins = "http://localhost:4200")
-@CrossOrigin(origins="https://web-app-a49e2.web.app/attache/attache")
+@CrossOrigin(origins={"https://web-app-a49e2.web.app","http://localhost:4200"})
 public class PersonaController {
 
     @Autowired
@@ -71,7 +70,7 @@ public class PersonaController {
                 dtopersona.getImg()
         );
         personaService.save(persona);
-        return new ResponseEntity(new Mensaje("Educacion creada"), HttpStatus.OK);
+        return new ResponseEntity(new Mensaje("Persona creada"), HttpStatus.OK);
 
     }
 
